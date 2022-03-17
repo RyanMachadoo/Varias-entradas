@@ -8,6 +8,6 @@ def principal():
 def unifran():
   return '<h2>Universidade de Franca</h2>'
 @app.route('/dashboard/<nome>/')
-def dash(nome):
+def dashboard(nome):
   return f'Olá, {nome}'
 app.run(host='0.0.0.0', port=8080)
